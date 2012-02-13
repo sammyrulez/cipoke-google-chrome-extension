@@ -19,11 +19,10 @@
 	],
 
     "icons" : {
-   // "48" : "cipoke-48.png",
-   // "128" : "cipoke-128.png"
+    "48" : "cipoke-48.png",
+    "128" : "cipoke-128.png"
    
-    "48" : "chat-icon.jpg",
-    "128" : "chat-icon.jpg"
+   
   }
 	
   
