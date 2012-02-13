@@ -1,0 +1,30 @@
+{
+  "name" : "CiPoke",
+  "version" : "1.0",
+  "description" : "Shows a page action for HTML pages containing the word 'sandwich'",
+  "background_page" : "background.html",
+  "content_scripts" : [
+    {
+      "matches" : [
+        "http://github.com/*",
+        "https://github.com/*"
+      ],
+      "js": ["contentscript.js"] ,
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ] ,
+  "permissions": [
+		"http://ajax.googleapis.com/"
+	],
+
+    "icons" : {
+   // "48" : "cipoke-48.png",
+   // "128" : "cipoke-128.png"
+   
+    "48" : "chat-icon.jpg",
+    "128" : "chat-icon.jpg"
+  }
+	
+  
+}
